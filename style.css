@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+input{
+    width: 500px;
+    padding:10px;
+}
+
+
+
+.container {
+    width: 500px;
+    position: relative;;
+    margin:0 auto;
+    animation: animation-name; 
+
+}
+
+a {
+    text-decoration:none;
+    
+}
+
+ul li {
+    animation: animation-name; 
+    animation-duration:1.5s;
+
+}
+
+@keyframes animation-name {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+
+    }
+}
